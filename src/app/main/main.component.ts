@@ -8,7 +8,6 @@ import { HttpClient } from '@angular/common/http'
 })
 
 export class MainComponent implements OnInit {
-  valuta: string = "";
   response: any;
   constructor(private http: HttpClient){}
   usd = 0
