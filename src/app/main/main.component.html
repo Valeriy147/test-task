@@ -1,0 +1,16 @@
+<div>
+    <select class="select" (change)="selectFirst($event)">
+        <option>UAH</option>
+        <option>USD</option>
+        <option>EUR</option>
+    </select>
+    <input class="input" type="number" value={{firstRate}} (input)="onFirstChange($event)">
+</div>
+<div>
+    <select class="select" (change)="selectSecond($event)">
+        <option>UAH</option>
+        <option>USD</option>
+        <option>EUR</option>
+    </select>
+    <input class="input" type="number" value={{secondRate}} (input)="onSecondChange($event)">
+</div>
